@@ -1,0 +1,18 @@
+{% extends 'pages/base.jinja' %}
+
+{% block title %}
+    Flask Demo - Here is the data you put in
+{% endblock %}
+
+
+{% block content %}
+
+    <h2>You entered the folowing data</h2>
+
+    <article id="form">
+    <h3> This is your name: </h3>
+        {{ name }}
+        <h3> This is your age: </h3>
+        {{ age }}
+
+{% endblock %}
